@@ -1,0 +1,146 @@
+    :root{
+    /* --title--:50px;  */
+    --primraycolor--:#F2881D;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#nav{
+    width: 100%;
+    height: 100%; 
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-between;  */
+
+}
+
+#logo{
+    display: inline-block;
+    margin-left: 20px;
+}
+#logo>img{
+    display: inline-block;
+}
+
+#stitle{
+    display: inline-block;
+}
+#stitle>p{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+#menu{
+    display: inline-block;
+    margin-left: 330px;
+}
+#menu>ul{
+    display: inline-block;
+}
+#menu>ul>li{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-right: 20px;
+}
+ul>li:hover{
+    background-color: oklch(.922 0 0);
+    color:#F2881D;
+}
+
+ul>button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    border-width: none;
+    border-style: none;
+    background-color: #F2881D;
+    font-size: larger;
+}
+
+ul>button:hover{
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #F2881D;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    font-size: larger;
+}
+
+#maim{
+    width: 100%;
+   
+}
+
+#left{
+    width: 49%;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+#text{
+     margin: 70px 30px;
+    /* margin-top: 50px; */
+}
+
+#text>h1{
+    font-size: 50px;
+}
+
+#text>p{
+    font-size: 20px;
+}
+
+#text>button{
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color:#F2881D;
+    color: white;
+    border: none;
+}
+#exp{
+    margin-top: 150px;
+}
+.experience{
+
+    width: 200px;
+    /* height: 106px; */
+    display: inline-block;
+    background-color: #e1ab74;
+    margin: 5px;
+    
+}
+.head{
+    font-family: work sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.sub_head{
+    font-family: work sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+#right{
+    width: 49%; 
+    display: inline-block;
+  
+}
+
+#right>img{
+    width: 60%;
+    display: inline-block;
+    /* padding: 0;
+    margin-top: -150px; */
+} 
+
