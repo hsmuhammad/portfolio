@@ -1,80 +1,4 @@
-    :root{
-    /* --title--:50px;  */
-    --primraycolor--:#F2881D;
-}
-
-body{
-    padding: 0;
-    margin: 0;
-}
-
-#nav{
-    width: 100%;
-    height: 100%; 
-    padding: 15px 20px;
-    display: flex;
-    align-items: center; 
-    /* justify-content: space-between;  */
-
-}
-
-#logo{
-    display: inline-block;
-    margin-left: 20px;
-}
-#logo>img{
-    display: inline-block;
-}
-
-#stitle{
-    display: inline-block;
-}
-#stitle>p{
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600px;
-    margin-right: 10px;
-    margin-left: 30px;
-}
-#menu{
-    display: inline-block;
-    margin-left: 330px;
-}
-#menu>ul{
-    display: inline-block;
-}
-#menu>ul>li{
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600px;
-    margin-right: 20px;
-}
-ul>li:hover{
-    background-color: oklch(.922 0 0);
-    color:#F2881D;
-}
-
-ul>button{
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: white;
-    border-width: none;
-    border-style: none;
-    background-color: #F2881D;
-    font-size: larger;
-}
-
-ul>button:hover{
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: #F2881D;
-    border-width: 1px;
-    border-style: solid;
-    background-color: #fff;
-    font-size: larger;
-}
-
-
+/* === Reset === */
 * {
   margin: 0;
   padding: 0;
@@ -82,10 +6,12 @@ ul>button:hover{
 }
 
 body {
+  background: #e9e9e9;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  min-height: 100vh;
 }
 
+/* === Main Container === */
 #main-container {
   max-width: 1200px;
   width: 100%;
@@ -101,7 +27,7 @@ body {
 #right-container {
   display: inline-block;
   vertical-align: bottom; /* align bottoms of both containers */
-  /* width: 49%; */
+  width: 49%;
   font-size: 16px;
   position: relative; /* for stats absolute positioning */
   box-sizing: border-box;
@@ -109,7 +35,6 @@ body {
 }
 
 #left-container {
-  width: 59%;
   padding: 20px;
   margin-right: 20px;
   min-height: 500px;
@@ -128,7 +53,6 @@ body {
 }
 
 #description {
-  padding-right: 50px;
   font-size: 1rem;
   margin-top: 20px;
   color: #555;
@@ -170,7 +94,6 @@ body {
   gap: 10px;
   justify-content: center;
   padding-bottom: 10px;
-  padding-right: 50px;
 }
 
 #stat-box-1, #stat-box-2, #stat-box-3 {
@@ -194,7 +117,6 @@ body {
 
 /* === Right Container === */
 #right-container {
-  width: 39%;
   text-align: center;
   background: #f5f5f5;
   padding: 10px;
